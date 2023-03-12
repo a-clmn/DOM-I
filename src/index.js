@@ -40,3 +40,46 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+//Variable declaration
+
+const nav = document.querySelectorAll("nav a")
+
+const header = document.querySelector("h1");
+const headerButton = document.querySelector("button");
+
+const topHeaders = document.querySelectorAll(".top-content .text-content h4");
+const bottomHeaders = document.querySelectorAll(".bottom-content .text-content h4");
+
+const topP = document.querySelectorAll(".top-content .text-content p");
+const bottomP = document.querySelectorAll(".bottom-content .text-content p");
+//Text Content
+
+nav[0].textContent = "Services";
+nav[1].textContent = "Products";
+nav[2].textContent = "Vision";
+nav[3].textContent = "Features";
+nav[4].textContent = "About";
+nav[5].textContent = "Contact";
+
+header.textContent = "DOM Is Awesome!";
+headerButton.textContent = "Get Started"
+
+topHeaders[0].textContent = "Features";
+topHeaders[1].textContent = "About";
+
+bottomHeaders[0].textContent = "Services";
+bottomHeaders[1].textContent = "Product";
+bottomHeaders[2].textContent = "Vision";
+
+topP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+topP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+bottomP[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+bottomP[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+bottomP[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//Class names
+
+//Images
+
